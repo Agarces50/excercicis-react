@@ -1,5 +1,5 @@
 import "./App.css";
-import Galeria from "./Galeria/Galeria";
+// import Galeria from "./Galeria/Galeria";
 import Comptador from "./Comptador/Comptador";
 
 function App() {
