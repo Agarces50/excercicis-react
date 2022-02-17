@@ -16,7 +16,7 @@ function Comptador() {
 
   const suma5 = () => {
     setCompte((n) => n + 5);
-    if (compte > 10) setCompte(10);
+    if (compte + 5 >= 10) setCompte(10);
   };
 
   // nota: increment lo uso como un parametro no sirve para nada le puedo dar ,
