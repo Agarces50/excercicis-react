@@ -10,3 +10,45 @@
   width: 600px;
   height: 600px;
 }
+
+.container {
+  width: 25%;
+  height: 25%;
+  border: solid black 5px;
+  margin: auto;
+  background-color: orangered;
+}
+
+.display {
+  border: solid rgb(14, 118, 236) 3px;
+  background-color: grey;
+  text-align: center;
+  margin: 25px;
+  border: solid black 5px;
+}
+
+.boton1 {
+  display: inline;
+}
+
+.increment {
+  margin-left: 45px;
+  background-color: grey;
+  border: solid black 5px;
+}
+
+.decrement {
+  margin-left: 25px;
+  background-color: grey;
+  border: solid black 5px;
+}
+
+.suma5 {
+  margin-left: 100px;
+  width: 130px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(221, 5, 5);
+  border: solid black 5px;
+}
