@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className="contenedor">
-        <Galeria />
+        {/* <Galeria /> */}
         <Comptador />
       </div>
     </>
