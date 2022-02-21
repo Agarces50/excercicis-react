@@ -1,15 +1,21 @@
 import "./App.css";
-// import Galeria from "./Galeria/Galeria";
-import Comptador from "./Comptador/Comptador";
+import "./";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
+import Home from "./Home";
+import Galeria from "./Galeria/Galeria";
 
 function App() {
   return (
-    <>
-      <div className="contenedor">
-        {/* <Galeria /> */}
-        <Comptador />
-      </div>
-    </>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+
+          <Route path="Galeria" element={<Galeria />} />
+        </Route>
+      </Routes>
+    </HashRouter>
   );
 }
 
