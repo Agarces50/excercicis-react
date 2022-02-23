@@ -52,7 +52,9 @@
   background-color: rgb(221, 5, 5);
   border: solid black 5px;
 }
-
+body {
+  background-color: bisque;
+}
 body,
 #root {
   display: flex;

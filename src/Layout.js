@@ -1,4 +1,9 @@
 import { Outlet, Link } from "react-router-dom";
+import llista from "./pages/LLista";
+import Galeria from "./pages/Galeria";
+import Comptador from "./pages/Comptador";
+import ToggleButton from "./pages/ToggleButton";
+import Home from "./pages/Home";
 
 export default function Layout() {
   return (
@@ -13,14 +18,21 @@ export default function Layout() {
             <li>
               <Link to="/">Home</Link>
             </li>
+
             <li>
-              <Link to="/Galeria">Galeria</Link>
+              <Link to="Galeria">Galeria</Link>
             </li>
+
+            {/* {llista.map((item) => (
+              <li>
+                <Link to={item.path}>{item.element}</Link>
+              </li>
+            ))} */}
           </ul>
         </nav>
         <aside class="HolyGrail-ads">…</aside>
       </div>
-      <footer>by David Rodenas</footer>
+      <footer>Andrés Garcés.</footer>
     </>
   );
 }
