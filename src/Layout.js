@@ -23,6 +23,21 @@ export default function Layout() {
               <Link to="Galeria">Galeria</Link>
             </li>
 
+            <li>
+              <Link to="Comptador">Comptador</Link>
+            </li>
+
+            <li>
+              <Link to="ToggleButton">ToggleButton</Link>
+            </li>
+            <li>
+              <Link to="Acordio">Acordio</Link>
+            </li>
+
+            <li>
+              <Link to="Counter-redux">Counter-redux</Link>
+            </li>
+
             {/* {llista.map((item) => (
               <li>
                 <Link to={item.path}>{item.element}</Link>

@@ -18,6 +18,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="Galeria" element={<Galeria />} />
           <Route path="Vector" element={<Vector />} />
+          <Route path="Comptador" element={<Comptador />} />
+          <Route path="ToggleButton" element={<ToggleButton />} />
 
           {/* <Route path="Comptador" element={<Comptador />} />
           <Route path="ToggleButton" element={<ToogleButton />} />
