@@ -4,6 +4,8 @@ import Galeria from "./pages/Galeria";
 import Comptador from "./pages/Comptador";
 import ToggleButton from "./pages/ToggleButton";
 import Home from "./pages/Home";
+import Acordio from "./pages/Acordio";
+import CounterRedux from "./pages/CounterRedux";
 
 export default function Layout() {
   return (
@@ -35,14 +37,8 @@ export default function Layout() {
             </li>
 
             <li>
-              <Link to="Counter-redux">Counter-redux</Link>
+              <Link to="CounterRedux">CounterRedux</Link>
             </li>
-
-            {/* {llista.map((item) => (
-              <li>
-                <Link to={item.path}>{item.element}</Link>
-              </li>
-            ))} */}
           </ul>
         </nav>
         <aside class="HolyGrail-ads">…</aside>
