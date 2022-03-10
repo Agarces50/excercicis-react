@@ -95,6 +95,11 @@ aside {
   padding: 1rem;
 }
 
+aside {
+  background-color: blueviolet;
+  margin-right: 50px;
+}
+
 footer {
   line-height: 3rem;
 }

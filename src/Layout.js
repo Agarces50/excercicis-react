@@ -13,9 +13,11 @@ export default function Layout() {
       <header>
         <h1>EJERCICIOS DE REACT</h1>
       </header>
+
       <div class="HolyGrail-body">
         <main class="HolyGrail-content">
           <Outlet />
+          <img src="imagenes/97985499.png" alt="imagenes/calimero.png" />
         </main>
         <nav class="HolyGrail-nav">
           <ul>
@@ -43,9 +45,17 @@ export default function Layout() {
             </li>
           </ul>
         </nav>
-        <aside class="HolyGrail-ads">…</aside>
+        <aside class="HolyGrail-ads">
+          …<a href="#">link hacia ejercicios react</a>
+          <br />…<a href="#">cv</a>…
+          <br />
+          <a href="https://www.google.com" target="_blank" rel="noreferrer">
+            rrss profesional{" "}
+          </a>
+          <br />
+        </aside>
       </div>
-      <footer>Andrés Garcés.</footer>
+      <footer>Andrés Garcés</footer>
     </>
   );
 }
