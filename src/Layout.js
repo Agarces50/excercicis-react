@@ -17,7 +17,14 @@ export default function Layout() {
       <div class="HolyGrail-body">
         <main class="HolyGrail-content">
           <Outlet />
-          <img src="imagenes/97985499.png" alt="imagenes/calimero.png" />
+
+          <div className="containerMinion">
+            <img
+              className="minion"
+              src={process.env.PUBLIC_URL + "/imagenes/minion.png"}
+              alt="imatge"
+            />
+          </div>
         </main>
         <nav class="HolyGrail-nav">
           <ul>
@@ -46,12 +53,10 @@ export default function Layout() {
           </ul>
         </nav>
         <aside class="HolyGrail-ads">
-          …<a href="#">link hacia ejercicios react</a>
+          <a href="#">link hacia ejercicios react</a>
           <br />…<a href="#">cv</a>…
           <br />
-          <a href="https://www.google.com" target="_blank" rel="noreferrer">
-            rrss profesional{" "}
-          </a>
+          <a href="https://www.google.com" target="_blank" rel="noreferrer"></a>
           <br />
         </aside>
       </div>
