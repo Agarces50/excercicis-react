@@ -84,7 +84,7 @@ body,
 
 header,
 footer {
-  background-color: rgb(14, 134, 240);
+  background-color: bisque;
   line-height: 5rem;
   padding: 0 1rem;
 }
@@ -97,4 +97,12 @@ aside {
 
 footer {
   line-height: 3rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
 }

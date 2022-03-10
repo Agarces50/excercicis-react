@@ -10,7 +10,9 @@ import CounterRedux from "./pages/CounterRedux";
 export default function Layout() {
   return (
     <>
-      <header>Exercicis React pericos de los palotes </header>
+      <header>
+        <h1>EJERCICIOS DE REACT</h1>
+      </header>
       <div class="HolyGrail-body">
         <main class="HolyGrail-content">
           <Outlet />
