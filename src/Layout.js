@@ -56,7 +56,9 @@ export default function Layout() {
           <a href="#">link hacia ejercicios react</a>
           <br />…<a href="#">cv</a>…
           <br />
-          <a href="https://www.google.com" target="_blank" rel="noreferrer"></a>
+          <a href="https://www.google.com" target="_blank" rel="noreferrer">
+            google
+          </a>
           <br />
         </aside>
       </div>
