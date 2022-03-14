@@ -1,5 +1,7 @@
 export default function Vector() {
-  let array = [87, 45, 37, 150];
+  return;
+
+  const array = [87, 45, 37, 150];
   let max = Math.max.apply(null, array);
   let minimo = Math.min.apply(null, array);
 

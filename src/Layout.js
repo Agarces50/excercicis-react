@@ -6,6 +6,7 @@ import ToggleButton from "./pages/ToggleButton";
 import Home from "./pages/Home";
 import Acordio from "./pages/Acordio";
 import CounterRedux from "./pages/CounterRedux";
+import TicTacToe from "./pages/TicTacToe";
 
 export default function Layout() {
   return (
@@ -48,7 +49,53 @@ export default function Layout() {
             </li>
 
             <li>
+              <Link to="Vector">Vector</Link>
+            </li>
+
+            <li>
               <Link to="CounterRedux">CounterRedux</Link>
+            </li>
+
+            <li>
+              <Link to="BarraSlider">BarraSlider</Link>
+            </li>
+
+            <li>
+              <Link to="Calculadora">Calculadora</Link>
+            </li>
+
+            <li>
+              <Link to="Carrusel">Carrussel</Link>
+            </li>
+
+            <li>
+              <Link to="RellotgeAnalogic">Rellotge Analogic</Link>
+            </li>
+
+            <li>
+              <Link to="RellotgeDigital">Rellotge Digital</Link>
+            </li>
+            <li>
+              <Link to="NevaPerNadal">Neva per Nadal </Link>
+            </li>
+            <li>
+              <Link to="ExcercicisArrays">Exercisis Arrays</Link>
+            </li>
+
+            <li>
+              <Link to="ApuntsCurs">Apunts Curs</Link>
+            </li>
+
+            <li>
+              <Link to="Activitat">Prueba pdf</Link>
+            </li>
+
+            <li>
+              <Link to="TicTacToe"> Tres en ratlla</Link>
+            </li>
+
+            <li>
+              <Link to="Altres">Altres</Link>
             </li>
           </ul>
         </nav>

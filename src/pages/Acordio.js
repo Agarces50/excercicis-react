@@ -1,5 +1,75 @@
-function Acordio() {
-  return <h1>prueba</h1>;
-}
+// function Acordio() {
+//   return <h1></h1>;
+// }
 
-export default Acordio;
+// export default Acordio;
+import { useState } from "react";
+
+export default function Acordio() {
+  const desplega = false;
+  const [desplega0, setDesplega0] = useState(true);
+  const [desplega1, setDesplega1] = useState(true);
+  const [desplega2, setDesplega2] = useState(true);
+  const [desplega3, setDesplega3] = useState(true);
+  let menus = ["Títol0", "Títol1", "Títol2", "Títol3", "Títol4"];
+  let submenus = [true, false, true, false, false];
+  let mostrals = [desplega, desplega0, desplega1, desplega2, desplega3];
+
+  function fesclick(elem) {
+    switch (elem) {
+      case 0:
+        setDesplega0(!desplega0);
+        break;
+      case 1:
+        setDesplega1(!desplega1);
+        break;
+      case 2:
+        setDesplega2(!desplega2);
+        break;
+      case 3:
+        setDesplega3(!desplega3);
+        break;
+      default:
+    }
+    /* if (desplega0) {
+      if (desplega1) {
+        if (desplega2) {
+        } else {
+        }
+      } else {
+        if (desplega2) {
+        } else {
+        }
+      }
+    } else {
+      if (desplega1) {
+        if (desplega2) {
+        } else {
+        }
+      } else {
+        if (desplega2) {
+        } else {
+        }
+      }
+    }*/
+    return true;
+  }
+  return (
+    <div id="Acordio">
+      {menus.map((n, index) => (
+        <div
+          className="Acordio__entrada"
+          key={n}
+          onClick={() => fesclick(index)}
+        >
+          {!mostrals[index] && menus[index]}
+          {!mostrals[index] && (
+            <div className={submenus[index] ? "tefills" : "notefills"}>
+              &gt;&nbsp;&nbsp;&nbsp;
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}

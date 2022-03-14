@@ -117,3 +117,250 @@ p {
   width: 384px;
   height: 384px;
 }
+
+/* componente acordio css */
+
+#Acordio {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.Acordio__entrada {
+  color: white;
+  list-style: none;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 200px;
+  height: 50px;
+  opacity: 0.8;
+  font-size: x-large;
+  line-height: 1.5em;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.Acordio__entrada:hover {
+  background-color: rgb(40, 40, 40);
+}
+
+.tefills {
+  display: inline;
+  text-align: right;
+  cursor: pointer;
+  width: 50px;
+  height: 40px;
+  transform: rotate(90deg);
+}
+
+.tefills:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+.notefills {
+  display: none;
+}
+
+/* componente carrussel */
+
+#carrusel {
+  width: 640px;
+  height: 480px;
+  /*background-image: url("../../public/img/imatge1.png");*/
+  background-size: 640px;
+}
+
+.mostra {
+  display: block;
+}
+
+.amaga {
+  display: none;
+}
+
+#anterior,
+#seguent {
+  position: relative;
+  width: 30px;
+  height: 60px;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+  padding-top: 15px;
+  opacity: 0.5;
+  background-color: black;
+  /*display: none;*/
+  cursor: pointer;
+}
+
+#anterior {
+  left: 0px;
+  top: 180px;
+}
+
+#seguent {
+  left: 610px;
+  top: 105px;
+}
+
+#foto {
+  width: 320px;
+  height: 200px;
+  background-color: blue;
+}
+
+#separador {
+  width: 100%;
+  height: 0%;
+  display: block;
+}
+
+.punt {
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  margin-left: 10px;
+  margin-bottom: 3px;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 50%;
+  border-width: 10px;
+}
+
+.puntas {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#navegador {
+  position: relative;
+  top: 269px;
+  left: 220px;
+  width: 200px;
+  height: 20px;
+  opacity: 0.5;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+#tancador {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  font-size: xx-large;
+  color: white;
+  opacity: 0.5;
+  background-color: black;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 9px;
+  right: -590px;
+  top: -200px;
+}
+
+/* componente BarraSlider */
+
+#barra {
+  position: absolute;
+  top: 80px;
+  z-index: 0;
+  height: 82%;
+  width: 400px;
+  background-color: green;
+}
+
+#boto {
+  background-color: lightgray;
+  width: 28px;
+  height: 25px;
+  cursor: pointer;
+}
+
+#sidebar {
+  z-index: 3;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  bottom: 100px;
+  width: 0px;
+  background-color: red;
+}
+
+@keyframes slideout {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 200px;
+  }
+}
+
+@keyframes slidein {
+  from {
+    width: 200px;
+  }
+  to {
+    width: 0px;
+  }
+}
+/* 
+css de els tres en ratlla ( tic tac toe) */
+
+#tictactoe {
+  text-align: center;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1px 1px;
+}
+
+.separador {
+  width: 100%;
+  height: 0%;
+}
+
+.casella {
+  width: 100px;
+  height: 70px;
+  padding-top: 30px;
+  font-size: xx-large;
+  border: 2px solid black;
+}
+
+.guanyes {
+  background-color: green;
+}
+
+.guanya {
+  background-color: red;
+}
+
+/* css rellotge digital */
+#rellotgedigital {
+  text-align: center;
+}
+
+.pastilleta {
+  height: 60px;
+}
+
+.mostra_clock {
+  display: block;
+}
+
+.amaga_clock {
+  display: none;
+}
