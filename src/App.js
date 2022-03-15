@@ -15,12 +15,13 @@ import ToggleButton from "./pages/ToggleButton";
 import Acordio from "./pages/Acordio";
 import RellotgeDigital from "./pages/RellotgeDigital";
 
-// import Activitat from "./pages/Activitat"; aquesta página es importació del pdf prova
+import Activitat from "./pages/Activitat"; //aquesta página es importació del pdf prova
 
 import Vector from "./pages/Vector";
 import CounterRedux from "./pages/CounterRedux";
 import Carrusel from "./pages/Carrusel";
 import TicTacToe from "./pages/TicTacToe";
+import samplePDF from "./documents/sample.pdf";
 
 // import BarraSlider from "./pages/BarraSlider";
 
@@ -41,7 +42,7 @@ function App() {
           <Route path="RellotgeDigital" element={<RellotgeDigital />} />
           {/* <Route path="Carrusel" element={<Carrusel />} />
           <Route path="BarraSlider" element={<BarraSlider />} /> */}
-          {/* <Route path="Activitat" element={<Activitat />} /> */}
+          <Route path="Activitat" element={<Activitat pdf={samplePDF} />} />
           {/* <Route path="CounterRedux" element={<CounterRedux />} />
         
       

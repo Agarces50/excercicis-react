@@ -1,5 +1,22 @@
-// import { Document, Page } from "react-pdf";
-// export default function Activitat() {
-//   return <Document file="/Imagenes/Arxivo.pdf">Arxivo</Document>;
-// }
-// hay que poner como el minion lo de public pq sino el browser no encuentra la ruta
+import React, { useState } from "react";
+import { Document, Page } from "react-pdf";
+
+export default function Activitat(props) {
+  const [numPages, setNumPages] = useState(null);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    console.log("SUccess");
+    setNumPages(numPages);
+  }
+  return (
+    <Document
+      file={""}
+      options={{ workerSrc: "./pdf.worker.js" }}
+      onLoadSuccess={onDocumentLoadSuccess}
+    >
+      {Array.from(new Array(numPages), (el, index) => (
+        <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+      ))}
+    </Document>
+  );
+}
