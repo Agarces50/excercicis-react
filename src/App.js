@@ -14,7 +14,7 @@ import Comptador from "./pages/Comptador";
 import ToggleButton from "./pages/ToggleButton";
 import Acordio from "./pages/Acordio";
 import RellotgeDigital from "./pages/RellotgeDigital";
-
+import ReactPlayer from "react-player";
 import Activitat from "./pages/Activitat"; //aquesta página es importació del pdf prova
 
 import Vector from "./pages/Vector";

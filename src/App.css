@@ -82,11 +82,20 @@ body,
   order: -1;
 }
 
+header {
+  max-width: 1800 px;
+  max-height: 300px;
+}
+
 header,
 footer {
   background-color: bisque;
   line-height: 5rem;
   padding: 0 1rem;
+}
+header,
+footer,
+aside {
 }
 
 main,
@@ -95,27 +104,32 @@ aside {
   padding: 1rem;
 }
 
-aside {
-  background-color: blueviolet;
+/* aside {
+  background-image: url("https://como.help/uploads/2019/2/pexels-photo-1020315_large.jpeg"); */
+/* 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   margin-right: 50px;
-}
+} */
 
+.home {
+  text-align: center;
+  margin-right: 45%;
+}
+nav {
+}
 footer {
   line-height: 3rem;
 }
 
 h1 {
   text-align: center;
+  margin-left: 650px;
 }
 
 p {
   text-align: center;
-}
-
-.minion {
-  margin-left: 600px;
-  width: 384px;
-  height: 384px;
 }
 
 /* componente acordio css */
@@ -363,4 +377,76 @@ css de els tres en ratlla ( tic tac toe) */
 
 .amaga_clock {
   display: none;
+}
+.cabeceravideo {
+  position: relative;
+  margin-right: 40%;
+}
+/* 
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+.containerMinion {
+  display: flex;
+}
+
+.minion {
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+  animation: minion 20s infinite;
+  position: absolute;
+}
+
+/* nota : el porcentage en blanco son en base a los segundos de la animación,y los porcentajes que estan dentro de left y demás son en base a la pantalla. */
+
+@keyframes minion {
+  0% {
+    left: 0%;
+    transform: rotateY(180deg);
+  }
+  20% {
+    left: calc(40%);
+    transform: rotateY(180deg);
+  }
+  30% {
+    left: calc(40%);
+    transform: rotateY(0deg);
+  }
+
+  37% {
+    left: calc(60%);
+    transform: rotateY(0deg);
+    transform: rotatez(180deg);
+  }
+  45% {
+    left: calc(80%);
+    transform: rotateY(0deg);
+    transform: rotatez(360deg);
+  }
+
+  49% {
+    left: calc(100% - 150px);
+    transform: rotateY(180deg);
+  }
+
+  51% {
+    left: calc(100% - 150px);
+    transform: rotateY(0deg);
+  }
+  60% {
+    left: calc(100% - 150px);
+    transform: rotateY(0deg);
+  }
+  98% {
+    left: 0px;
+    transform: rotateY(0deg);
+  }
+  100% {
+    left: 0px;
+    transform: rotateY(180deg);
+  }
 }
