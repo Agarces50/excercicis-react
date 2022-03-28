@@ -34,68 +34,87 @@ export default function Layout() {
             <li>
               <Link to="/">Home</Link>
             </li>
+            <br></br>
 
-            <li>
+            <li id="Galeria">
               <Link to="Galeria">Galeria</Link>
             </li>
-
+            <br></br>
             <li>
               <Link to="Comptador">Comptador</Link>
             </li>
-
+            <br></br>
             <li>
               <Link to="ToggleButton">ToggleButton</Link>
             </li>
+            <br></br>
             <li>
               <Link to="Acordio">Acordio</Link>
             </li>
+            <br></br>
 
             <li>
               <Link to="Vector">Vector</Link>
             </li>
+            <br></br>
 
             <li>
               <Link to="CounterRedux">CounterRedux</Link>
             </li>
+            <br></br>
 
             <li>
               <Link to="BarraSlider">BarraSlider</Link>
             </li>
+            <br></br>
 
             <li>
               <Link to="Calculadora">Calculadora</Link>
             </li>
+            <br></br>
 
             <li>
               <Link to="Carrusel">Carrussel</Link>
             </li>
+            <br></br>
 
             <li>
               <Link to="RellotgeAnalogic">Rellotge Analogic</Link>
             </li>
+            <br></br>
 
             <li>
               <Link to="RellotgeDigital">Rellotge Digital</Link>
             </li>
+            <br></br>
             <li>
               <Link to="NevaPerNadal">Neva per Nadal </Link>
             </li>
+            <br></br>
             <li>
               <Link to="ExcercicisArrays">Exercisis Arrays</Link>
             </li>
+            <br></br>
 
             <li>
               <Link to="ApuntsCurs">Apunts Curs</Link>
             </li>
+            <br></br>
+
+            <li>
+              <Link to="Rest">Todo en Rest</Link>
+            </li>
+            <br></br>
 
             <li>
               <Link to="Activitat">Prueba pdf</Link>
             </li>
+            <br></br>
 
             <li>
               <Link to="TicTacToe"> Tres en ratlla</Link>
             </li>
-
+            <br></br>
             <li>
               <Link to="Altres">Altres</Link>
             </li>

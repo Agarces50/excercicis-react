@@ -27,7 +27,7 @@ function Comptador() {
     <>
       <div className="container">
         <div className="display">
-          <h1>{compte}</h1>
+          <h2>{compte}</h2>
         </div>
 
         <div className="botons1">
