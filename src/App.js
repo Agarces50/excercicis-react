@@ -33,15 +33,25 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="Galeria" element={<Galeria />} />
-          {/* <Route path="Vector" element={<Vector />} /> */}
+          {/* <Route path="Galeria" element={<Galeria />} />
           <Route path="Comptador" element={<Comptador />} />
           <Route path="ToggleButton" element={<ToggleButton />} />
           <Route path="Acordio" element={<Acordio />} />
-          <Route path="TicTacToe" element={<TicTacToe />} />
+          <Route path="Vector" element={<Vector />} />
+          <Route path="CounterRedux" element={<CounterRedux />} />
+          <Route path="BarraSlider" element={<BarraSlider />} />
+          <Route path="Calculadora" element={<Calculadora />} />
+          <Route path="Carrusel" element={<Carrusel />} />
+          <Route path="RellotgeAnalogic" element={<RellotgeAnalogic />} />
           <Route path="RellotgeDigital" element={<RellotgeDigital />} />
+          <Route path="NevaPerNadal" element={<NevaPerNadal />} />
+          <Route path="ExercicisArrays" element={<ExercicisArrays />} />
+          <Route path="Apunts" element={<RellotgeDigital />} />
+
+          <Route path="TicTacToe" element={<TicTacToe />} /> */}
+
           {/* <Route path="Carrusel" element={<Carrusel />} />
-          <Route path="BarraSlider" element={<BarraSlider />} /> */}
+          
           <Route path="Activitat" element={<Activitat pdf={samplePDF} />} />
           {/* <Route path="CounterRedux" element={<CounterRedux />} />
         

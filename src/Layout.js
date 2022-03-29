@@ -19,7 +19,7 @@ export default function Layout() {
             src={process.env.PUBLIC_URL + "/imagenes/minion.png"}
             alt="imatge"
           />
-          <h1>EJERCICIOS DE REACT</h1>
+          <h1 id="Titulo">EJERCICIOS DE REACT</h1>
         </div>
       </header>
 
@@ -31,7 +31,7 @@ export default function Layout() {
         </main>
         <nav className="HolyGrail-nav">
           <ul>
-            <li>
+            <li id="Home">
               <Link to="/">Home</Link>
             </li>
             <br></br>
@@ -40,97 +40,106 @@ export default function Layout() {
               <Link to="Galeria">Galeria</Link>
             </li>
             <br></br>
-            <li>
+            <li id="Comptador">
               <Link to="Comptador">Comptador</Link>
             </li>
             <br></br>
-            <li>
+            <li id="ToggleButton">
               <Link to="ToggleButton">ToggleButton</Link>
             </li>
             <br></br>
-            <li>
+            <li id="Acordio2">
               <Link to="Acordio">Acordio</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="Vector">
               <Link to="Vector">Vector</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="CounterRedux">
               <Link to="CounterRedux">CounterRedux</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="BarraSlider">
               <Link to="BarraSlider">BarraSlider</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="Calculadora">
               <Link to="Calculadora">Calculadora</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="Carrusel">
               <Link to="Carrusel">Carrussel</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="RellotgeAnalogic">
               <Link to="RellotgeAnalogic">Rellotge Analogic</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="RellotgeDigital">
               <Link to="RellotgeDigital">Rellotge Digital</Link>
             </li>
             <br></br>
-            <li>
+            <li id="NevaPerNadal">
               <Link to="NevaPerNadal">Neva per Nadal </Link>
             </li>
             <br></br>
-            <li>
+            <li id="ExercicisArrays">
               <Link to="ExcercicisArrays">Exercisis Arrays</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="ApuntsCurs">
               <Link to="ApuntsCurs">Apunts Curs</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="Rest">
               <Link to="Rest">Todo en Rest</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="Activitat">
               <Link to="Activitat">Prueba pdf</Link>
             </li>
             <br></br>
 
-            <li>
+            <li id="TicTacToe">
               <Link to="TicTacToe"> Tres en ratlla</Link>
             </li>
             <br></br>
-            <li>
+            <li id="Altres">
               <Link to="Altres">Altres</Link>
             </li>
           </ul>
         </nav>
       </div>
       <footer>
-        {" "}
-        Andrés Garcés
-        <a href="#">link hacia ejercicios react</a>
-        <br />…<a href="#">cv</a>…
-        <br />
-        <a href="https://www.google.com" target="_blank" rel="noreferrer">
-          google
-        </a>
-        <br />
+        <h2> Andrés Garcés Experience</h2>
+
+        <div className="final">
+          <a id="final1" href="#">
+            Visita página principal
+          </a>
+          <a id="final2" href="mailto:agarcesb50@gmail.com">
+            Contacta conmigo por correo
+          </a>
+          <a
+            id="final3"
+            href="https://www.google.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Google
+          </a>
+        </div>
       </footer>
     </>
   );

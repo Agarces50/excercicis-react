@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 export default function Home() {
   return (
     <>
-      <h1 className="home">Bienvenido! </h1>
+      <h1 className="home">Bienvenido!</h1>
       <p> Click en los ejercicios para poder ver su desarrollo.</p>
 
       <div className="cabeceravideo">
