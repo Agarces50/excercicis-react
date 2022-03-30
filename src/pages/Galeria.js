@@ -1,7 +1,13 @@
 import { useState } from "react";
 import "../App.css";
 
-const imagenes = ["limonero.jpg", "manzano.jpg", "naranjo.jpg", "peral.jpg"];
+const imagenes = [
+  "/carrusel1.jpg",
+  "carrusel2.jpg",
+  "carrusel3.jpg",
+  "carrusel4.jpg",
+  "carrusel5.jpg",
+];
 
 function Galeria() {
   const [imagenOriginal, setImagenOriginal] = useState("expandido");

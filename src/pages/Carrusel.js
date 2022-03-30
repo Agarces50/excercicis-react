@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "../App.css";
 let fotos = [
-  "/img/imatge1.png",
-  "/img/imatge2.jpeg",
-  "/img/imatge3.jpeg",
-  "/img/imatge4.jpeg",
-  "/img/imatge5.jpeg",
-  "/img/imatge6.jpeg",
+  "../public/imagenes/carrusel1.jpg",
+  "../public/imagenes/carrusel2.jpg",
+  "../public/imagenes/carrusel3.jpg",
+  "../public/imagenes/carrusel4.jpg",
+  "../public/imagenes/carrusel5.jpg",
+  "../public/imagenes/carrusel6.jpg",
 ].map((f) => process.env.PUBLIC_URL + f);
 
 export default function Carrusel() {

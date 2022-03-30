@@ -409,9 +409,9 @@ p {
 /* componente carrussel */
 
 #carrusel {
-  width: 640px;
-  height: 480px;
-  /*background-image: url("../../public/img/imatge1.png");*/
+  width: 1800px;
+  height: 640px;
+  background-image: url("/public/imagenes/calimero.png");
   background-size: 640px;
 }
 
@@ -429,7 +429,7 @@ p {
   width: 30px;
   height: 60px;
   text-align: center;
-  color: white;
+  color: rgb(185, 7, 7);
   font-size: xx-large;
   padding-top: 15px;
   opacity: 0.5;
@@ -449,8 +449,8 @@ p {
 }
 
 #foto {
-  width: 320px;
-  height: 200px;
+  width: 400px;
+  height: 250px;
   background-color: blue;
 }
 
