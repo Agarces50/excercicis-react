@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/excercicis-react/static/css/main.3643deaa.css",
-    "main.js": "/excercicis-react/static/js/main.4e4484a5.js",
+    "main.css": "/excercicis-react/static/css/main.36806531.css",
+    "main.js": "/excercicis-react/static/js/main.f281013d.js",
     "static/js/787.5695514e.chunk.js": "/excercicis-react/static/js/787.5695514e.chunk.js",
     "static/media/ovejas.jpg": "/excercicis-react/static/media/ovejas.51fa2c07c0b64d53ab1d.jpg",
     "static/media/sample.pdf": "/excercicis-react/static/media/sample.ac0398d4ca249e568588.pdf",
     "index.html": "/excercicis-react/index.html",
-    "main.3643deaa.css.map": "/excercicis-react/static/css/main.3643deaa.css.map",
-    "main.4e4484a5.js.map": "/excercicis-react/static/js/main.4e4484a5.js.map",
+    "main.36806531.css.map": "/excercicis-react/static/css/main.36806531.css.map",
+    "main.f281013d.js.map": "/excercicis-react/static/js/main.f281013d.js.map",
     "787.5695514e.chunk.js.map": "/excercicis-react/static/js/787.5695514e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3643deaa.css",
-    "static/js/main.4e4484a5.js"
+    "static/css/main.36806531.css",
+    "static/js/main.f281013d.js"
   ]
 }
