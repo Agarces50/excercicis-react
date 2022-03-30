@@ -121,7 +121,7 @@ export default function Layout() {
           </ul>
         </nav>
       </div>
-      <footer>
+      <footer className="pie">
         <h2> Andrés Garcés Experience</h2>
 
         <div className="final">

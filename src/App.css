@@ -149,18 +149,22 @@ a {
   justify-content: space-between;
 }
 
+.pie {
+  width: auto;
+  height: auto;
+}
+
 #final1 {
   background-color: rgb(255, 0, 221);
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
-  padding: 30%;
 }
 
 #final2 {
   background-color: rgb(255, 0, 221);
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -168,7 +172,7 @@ a {
 
 #final3 {
   background-color: rgb(255, 0, 221);
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -176,7 +180,7 @@ a {
 
 #Home {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -184,7 +188,7 @@ a {
 
 #Galeria {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -192,7 +196,7 @@ a {
 
 #Comptador {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -200,7 +204,7 @@ a {
 
 #ToggleButton {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -208,7 +212,7 @@ a {
 
 #Acordio2 {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -216,7 +220,7 @@ a {
 
 #Vector {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -224,7 +228,7 @@ a {
 
 #CounterRedux {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -232,7 +236,7 @@ a {
 
 #BarraSlider {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -240,7 +244,7 @@ a {
 
 #Calculadora {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -248,7 +252,7 @@ a {
 
 #Carrusel {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -256,14 +260,14 @@ a {
 
 #RellotgeAnalogic {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
 }
 #RellotgeDigital {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -271,7 +275,7 @@ a {
 
 #NevaPerNadal {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -279,7 +283,7 @@ a {
 
 #ExercicisArrays {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -287,7 +291,7 @@ a {
 
 #ApuntsCurs {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -295,7 +299,7 @@ a {
 
 #Rest {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -303,7 +307,7 @@ a {
 
 #Activitat {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -311,7 +315,7 @@ a {
 
 #TicTacToe {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
@@ -319,7 +323,7 @@ a {
 
 #Altres {
   background-color: aqua;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
