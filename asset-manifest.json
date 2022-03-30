@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/excercicis-react/static/css/main.3b6a0822.css",
-    "main.js": "/excercicis-react/static/js/main.b0244d00.js",
+    "main.css": "/excercicis-react/static/css/main.ed1122b4.css",
+    "main.js": "/excercicis-react/static/js/main.4a6b9f58.js",
     "static/js/787.5695514e.chunk.js": "/excercicis-react/static/js/787.5695514e.chunk.js",
     "static/media/ovejas.jpg": "/excercicis-react/static/media/ovejas.51fa2c07c0b64d53ab1d.jpg",
     "static/media/sample.pdf": "/excercicis-react/static/media/sample.ac0398d4ca249e568588.pdf",
     "index.html": "/excercicis-react/index.html",
-    "main.3b6a0822.css.map": "/excercicis-react/static/css/main.3b6a0822.css.map",
-    "main.b0244d00.js.map": "/excercicis-react/static/js/main.b0244d00.js.map",
+    "main.ed1122b4.css.map": "/excercicis-react/static/css/main.ed1122b4.css.map",
+    "main.4a6b9f58.js.map": "/excercicis-react/static/js/main.4a6b9f58.js.map",
     "787.5695514e.chunk.js.map": "/excercicis-react/static/js/787.5695514e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b6a0822.css",
-    "static/js/main.b0244d00.js"
+    "static/css/main.ed1122b4.css",
+    "static/js/main.4a6b9f58.js"
   ]
 }
