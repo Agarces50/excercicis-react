@@ -128,7 +128,7 @@ export default function Layout() {
           <a id="final1" href="#">
             Visita página principal
           </a>
-          <a id="final2" href="mailto:agarcesb50@gmail.com">
+          <a id="final2" href="mailto:agarcesb50@gmail.com" target="_blank">
             Contacta conmigo por correo
           </a>
           <a

@@ -25,7 +25,7 @@
 //       sec_graus.toString(),
 //       txt4
 //     );
-//     /*return (
+//     return (
 //       <div className="mostra_watch">
 //         <div id="dotze">12</div>
 //         <div id="tres">3</div>
@@ -66,7 +66,7 @@
 //           />
 //         </svg>
 //       </div>
-//     );*/
+//     );
 //   }
 //   useEffect(() => {
 //     setInterval(() => {

@@ -1,5 +1,5 @@
 import "./App.css";
-import "./";
+import "./RellotgeAnalogic.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { useReducer } from "react";
 import { useEstate } from "react";
@@ -47,7 +47,7 @@ function App() {
           {/* <Route path="NevaPerNadal" element={<NevaPerNadal />} /> */}
           {/* <Route path="ExercicisArrays" element={<ExercicisArrays />} /> */}
           <Route path="Apunts" element={<RellotgeDigital />} />
-          <Route path="TicTacToe" element={<TicTacToe />} /> */}
+          <Route path="TicTacToe" element={<TicTacToe />} />
           {/* <Route path="Carrusel" element={<Carrusel />} />
           
           <Route path="Activitat" element={<Activitat pdf={samplePDF} />} />

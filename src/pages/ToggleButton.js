@@ -27,10 +27,14 @@ export default function ToggleButton() {
 
   return (
     <>
-      <button style={{ background: color }} onClick={toggle}>
-        Toggle Me
+      <button
+        style={{ background: color }}
+        onClick={toggle}
+        className="ToggleBoton"
+      >
+        ToggleButton
       </button>
-      {estaPremut ? <p>Esta premut</p> : <p>No esta premut</p>}
+      {estaPremut ? <p>HAS CLICAT</p> : <p>NO ESTÁ CLICAT</p>}
     </>
   );
 }

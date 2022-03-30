@@ -15,10 +15,15 @@
   width: 75%;
   height: 75%;
   border: solid black 5px;
-  margin-right: 20%;
+  margin-left: 10%;
   /* background-color: orangered; */
   background-image: url("../public/imagenes/ovejas.jpg");
   background-size: contain;
+}
+
+.ToggleBoton {
+  width: 1000px;
+  height: 800px;
 }
 
 .display {
@@ -111,10 +116,6 @@ footer {
   background-color: bisque;
   line-height: 5rem;
   padding: 0 1rem;
-}
-header,
-footer,
-aside {
 }
 
 main,
@@ -266,7 +267,7 @@ a {
   font-weight: bold;
 }
 #RellotgeDigital {
-  background-color: aqua;
+  background-color: rgb(5, 121, 11);
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
@@ -314,7 +315,7 @@ a {
 }
 
 #TicTacToe {
-  background-color: aqua;
+  background-color: rgb(5, 121, 11);
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
@@ -342,8 +343,7 @@ a {
   text-align: center;
   margin-right: 45%;
 }
-nav {
-}
+
 footer {
   line-height: 3rem;
 }
@@ -362,13 +362,13 @@ p {
 /* componente acordio css */
 
 #Acordio {
-  background-color: black;
+  background-color: rgb(137, 111, 148);
   display: flex;
   flex-direction: column;
 }
 
 .Acordio__entrada {
-  color: white;
+  color: rgb(104, 19, 71);
   list-style: none;
   text-align: left;
   padding-top: 10px;
@@ -386,7 +386,7 @@ p {
 }
 
 .Acordio__entrada:hover {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(212, 61, 61);
 }
 
 .tefills {
@@ -399,7 +399,7 @@ p {
 }
 
 .tefills:hover {
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(87, 58, 143);
 }
 
 .notefills {
@@ -411,8 +411,9 @@ p {
 #carrusel {
   width: 1800px;
   height: 640px;
-  background-image: url("/public/imagenes/calimero.png");
   background-size: 640px;
+  background-repeat: no-repeat;
+  margin-left: 400px;
 }
 
 .mostra {
@@ -433,7 +434,7 @@ p {
   font-size: xx-large;
   padding-top: 15px;
   opacity: 0.5;
-  background-color: black;
+  background-color: rgb(22, 57, 133);
   /*display: none;*/
   cursor: pointer;
 }
