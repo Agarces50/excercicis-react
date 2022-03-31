@@ -59,7 +59,6 @@ function Galeria() {
           </div>
         ))}
       </div>
-      <img src="imagenes/limonero.jpg" alt="limonero" />
     </>
   );
 }
