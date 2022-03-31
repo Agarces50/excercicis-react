@@ -1,0 +1,19 @@
+.Titol {
+  font-size: 100px;
+  color: rgb(183, 24, 24);
+  margin-top: 20%;
+  margin-left: 50px;
+}
+
+.floc {
+  position: fixed;
+  color: whitesmoke;
+  font-size: 35px;
+}
+.CajaPostal {
+  background-image: center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("/public/imagenes/fondoPostal.jpg");
+}

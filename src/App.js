@@ -1,9 +1,11 @@
 import "./App.css";
 import "./RellotgeAnalogic.css";
+
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { useReducer } from "react";
 import { useEstate } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { useState, useEffect } from "react";
 // import { Keyframes } from "react-keyframes";
 // import { Document, Page } from "react-pdf"; llibreia per importar pdf
 import llista from "./pages/LLista";
@@ -22,6 +24,7 @@ import CounterRedux from "./pages/CounterRedux";
 import Carrusel from "./pages/Carrusel";
 import TicTacToe from "./pages/TicTacToe";
 import samplePDF from "./documents/sample.pdf";
+import Neva from "./pages/Neva";
 
 // import BarraSlider from "./pages/BarraSlider";
 
@@ -47,8 +50,10 @@ function App() {
           {/* <Route path="NevaPerNadal" element={<NevaPerNadal />} /> */}
           {/* <Route path="ExercicisArrays" element={<ExercicisArrays />} /> */}
           <Route path="Apunts" element={<RellotgeDigital />} />
+          <Route path="Neva" element={<Neva />} />
           <Route path="TicTacToe" element={<TicTacToe />} />
           {/* <Route path="Carrusel" element={<Carrusel />} />
+          
           
           <Route path="Activitat" element={<Activitat pdf={samplePDF} />} />
           {/* <Route path="CounterRedux" element={<CounterRedux />} />

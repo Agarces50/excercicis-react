@@ -8,6 +8,7 @@ import Acordio from "./pages/Acordio";
 import CounterRedux from "./pages/CounterRedux";
 import TicTacToe from "./pages/TicTacToe";
 import ReactPlayer from "react-player";
+import Nevada from "./pages/Neva";
 
 export default function Layout() {
   return (
@@ -88,7 +89,7 @@ export default function Layout() {
             </li>
             <br></br>
             <li id="NevaPerNadal">
-              <Link to="NevaPerNadal">Neva per Nadal </Link>
+              <Link to="Neva">Neva per Nadal </Link>
             </li>
             <br></br>
             <li id="ExercicisArrays">
