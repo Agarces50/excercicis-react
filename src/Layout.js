@@ -20,7 +20,13 @@ export default function Layout() {
             src={process.env.PUBLIC_URL + "/imagenes/minion.png"}
             alt="imatge"
           />
-          <h1 id="Titulo">EJERCICIOS DE REACT</h1>
+          <div className="conjunto">
+            <h1 id="Titulo">
+              EXERCICIS DE REACT
+              <button id="botoncabecera1"> Aqua opertiu</button>
+              <button id="botoncabecera2"> Verd no opertiu</button>
+            </h1>
+          </div>
         </div>
       </header>
 

@@ -1,3 +1,22 @@
+#botoncabecera1 {
+  font-weight: bold;
+  font: black;
+  width: 75px;
+  background-color: aqua;
+  margin-left: 75px;
+}
+
+#botoncabecera2 {
+  font-weight: bold;
+  font: black;
+  width: 75px;
+  background-color: rgb(5, 121, 11);
+}
+
+.conjunto {
+  display: inline;
+}
+
 .contenedor {
   display: flex;
 }
@@ -42,7 +61,7 @@ h2 {
   display: inline;
 }
 #Titulo {
-  margin-left: 47%;
+  margin-left: 20%;
 }
 
 .increment {
@@ -220,7 +239,7 @@ a {
 }
 
 #Vector {
-  background-color: aqua;
+  background-color: rgb(5, 121, 11);
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
@@ -236,7 +255,7 @@ a {
 }
 
 #BarraSlider {
-  background-color: aqua;
+  background-color: rgb(5, 121, 11);
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
@@ -267,7 +286,7 @@ a {
   font-weight: bold;
 }
 #RellotgeDigital {
-  background-color: rgb(5, 121, 11);
+  background-color: aqua;
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
@@ -283,7 +302,7 @@ a {
 }
 
 #ExercicisArrays {
-  background-color: aqua;
+  background-color: rgb(5, 121, 11);
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
@@ -291,7 +310,7 @@ a {
 }
 
 #ApuntsCurs {
-  background-color: aqua;
+  background-color: rgb(5, 121, 11);
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
@@ -307,14 +326,6 @@ a {
 }
 
 #Activitat {
-  background-color: aqua;
-  border-radius: 25px;
-  border: 5px solid black;
-  text-align: center;
-  font-weight: bold;
-}
-
-#TicTacToe {
   background-color: rgb(5, 121, 11);
   border-radius: 25px;
   border: 5px solid black;
@@ -322,8 +333,16 @@ a {
   font-weight: bold;
 }
 
-#Altres {
+#TicTacToe {
   background-color: aqua;
+  border-radius: 25px;
+  border: 5px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+#Altres {
+  background-color: rgb(5, 121, 11);
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
@@ -593,6 +612,22 @@ css de els tres en ratlla ( tic tac toe) */
 /* css rellotge digital */
 #rellotgedigital {
   text-align: center;
+  width: 1000px;
+  height: 800px;
+}
+.botoRellotge {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(117, 117, 202);
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.botoRellotge:hover {
+  background-image: url(/public/imagenes/calimero.png);
+  background-size: cover;
+  border-radius: 100%;
 }
 
 .pastilleta {
@@ -601,6 +636,8 @@ css de els tres en ratlla ( tic tac toe) */
 
 .mostra_clock {
   display: block;
+  max-width: 1000px;
+  min-height: 1000px;
 }
 
 .amaga_clock {
@@ -619,6 +656,7 @@ css de els tres en ratlla ( tic tac toe) */
 
 .containerMinion {
   display: flex;
+  justify-content: center;
 }
 
 .minion {

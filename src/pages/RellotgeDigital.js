@@ -66,6 +66,7 @@ export default function RellotgeDigital() {
       </div>
       <br />
       <button
+        className="botoRellotge"
         onClick={() => {
           setInterval(() => {
             dia_i_hora_digital();
