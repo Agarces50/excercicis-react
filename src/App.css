@@ -238,14 +238,30 @@ a {
   font-weight: bold;
 }
 
-#Vector {
-  background-color: rgb(5, 121, 11);
+#SumadorNumeros {
+  background-color: aqua;
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
   font-weight: bold;
 }
+.contenedorsumador {
+  margin-left: 30%;
+  background-color: rgb(152, 66, 66);
+  width: 40%;
+  height: 15%;
+}
 
+.contenedorsumador,
+h1 {
+  color: blue;
+  font-size: large;
+  font-weight: bold;
+  margin-right: 10%;
+}
+.contenedorsumador.button.label {
+  margin-left: 20px;
+}
 #CounterRedux {
   background-color: aqua;
   border-radius: 25px;
@@ -263,7 +279,7 @@ a {
 }
 
 #Calculadora {
-  background-color: aqua;
+  background-color: rgb(5, 121, 11);
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
@@ -318,7 +334,7 @@ a {
 }
 
 #Rest {
-  background-color: aqua;
+  background-color: rgb(5, 121, 11);
   border-radius: 25px;
   border: 5px solid black;
   text-align: center;
@@ -578,7 +594,8 @@ css de els tres en ratlla ( tic tac toe) */
 
 #tictactoe {
   text-align: center;
-  width: 320px;
+  width: 350px;
+  height: 350px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -586,6 +603,7 @@ css de els tres en ratlla ( tic tac toe) */
   justify-content: center;
   align-items: baseline;
   gap: 1px 1px;
+  margin-left: 30%;
 }
 
 .separador {
@@ -598,7 +616,7 @@ css de els tres en ratlla ( tic tac toe) */
   height: 70px;
   padding-top: 30px;
   font-size: xx-large;
-  border: 2px solid black;
+  border: 5px solid orange;
 }
 
 .guanyes {

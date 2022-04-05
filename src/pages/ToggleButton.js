@@ -34,7 +34,7 @@ export default function ToggleButton() {
       >
         ToggleButton
       </button>
-      {estaPremut ? <p>HAS CLICAT</p> : <p>NO ESTÁ CLICAT</p>}
+      {estaPremut ? <p>EIII HAS FET CLICK</p> : <p>NO HAS CLICAT</p>}
     </>
   );
 }

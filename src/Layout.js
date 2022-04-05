@@ -4,7 +4,7 @@ import Galeria from "./pages/Galeria";
 import Comptador from "./pages/Comptador";
 import ToggleButton from "./pages/ToggleButton";
 import Home from "./pages/Home";
-import Acordio from "./pages/Acordio";
+import Acordeon from "./pages/Acordeon";
 import CounterRedux from "./pages/CounterRedux";
 import TicTacToe from "./pages/TicTacToe";
 import ReactPlayer from "react-player";
@@ -56,12 +56,12 @@ export default function Layout() {
             </li>
             <br></br>
             <li id="Acordio2">
-              <Link to="Acordio">Acordio</Link>
+              <Link to="Acordeon">Acordio</Link>
             </li>
             <br></br>
 
-            <li id="Vector">
-              <Link to="Vector">Vector</Link>
+            <li id="SumadorNumeros">
+              <Link to="SumadorNumeros">SumadorNumeros</Link>
             </li>
             <br></br>
 
@@ -86,7 +86,7 @@ export default function Layout() {
             <br></br>
 
             <li id="RellotgeAnalogic">
-              <Link to="RellotgeAnalogic">Rellotge Analogic</Link>
+              <Link to="Relojanalogico">Rellotge Analogic</Link>
             </li>
             <br></br>
 
@@ -135,7 +135,7 @@ export default function Layout() {
           <a id="final1" href="#">
             Visita página principal
           </a>
-          <a id="final2" href="mailto:agarcesb50@gmail.com" target="_blank">
+          <a id="final2" href="mailto:agarcesb50@gmail.com">
             Contacta conmigo por correo
           </a>
           <a
