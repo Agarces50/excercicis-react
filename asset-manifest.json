@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/excercicis-react/static/css/main.33b7af42.css",
-    "main.js": "/excercicis-react/static/js/main.3e77534c.js",
+    "main.css": "/excercicis-react/static/css/main.1d465a52.css",
+    "main.js": "/excercicis-react/static/js/main.68421b37.js",
     "static/js/787.5695514e.chunk.js": "/excercicis-react/static/js/787.5695514e.chunk.js",
     "static/media/fondoPostal.jpg": "/excercicis-react/static/media/fondoPostal.f12933ad5870d0e94bde.jpg",
+    "static/media/camarero.jpg": "/excercicis-react/static/media/camarero.930a42cb767d9fb9f422.jpg",
     "static/media/ovejas.jpg": "/excercicis-react/static/media/ovejas.51fa2c07c0b64d53ab1d.jpg",
+    "static/media/minion.png": "/excercicis-react/static/media/minion.0e6b86376c1a1e8b83bc.png",
     "static/media/sample.pdf": "/excercicis-react/static/media/sample.ac0398d4ca249e568588.pdf",
     "index.html": "/excercicis-react/index.html",
-    "main.33b7af42.css.map": "/excercicis-react/static/css/main.33b7af42.css.map",
-    "main.3e77534c.js.map": "/excercicis-react/static/js/main.3e77534c.js.map",
+    "main.1d465a52.css.map": "/excercicis-react/static/css/main.1d465a52.css.map",
+    "main.68421b37.js.map": "/excercicis-react/static/js/main.68421b37.js.map",
     "787.5695514e.chunk.js.map": "/excercicis-react/static/js/787.5695514e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b7af42.css",
-    "static/js/main.3e77534c.js"
+    "static/css/main.1d465a52.css",
+    "static/js/main.68421b37.js"
   ]
 }
